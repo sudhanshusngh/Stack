@@ -1,11 +1,10 @@
 package main
 
-import( "fmt"
+import( 
 	"github.com/sudhanshusngh/Stack/pkg/stack"
 )
 
 func main() {
-	fmt.Println("Hello World")
 	s := stack.Stack{}
 	s.Push(2)
 	s.Print()
