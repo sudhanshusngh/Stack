@@ -2,6 +2,7 @@ package main
 
 import( 
 	"github.com/sudhanshusngh/Stack/pkg/stack"
+	"github.com/sudhanshusngh/Stack/pkg/queue"
 )
 
 func main() {
@@ -18,4 +19,12 @@ func main() {
 	s.Print()
 	s.Pop()
 	s.Print()
+	q := queue.Queue{}
+	q.PushQ(3)
+	q.PushQ(9)
+	q.PushQ(5)
+	q.PushQ(7)
+	q.PushQ(2)
+	q.PushQ(4)
+	q.PrintQueue()
 }
